@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from crawl4ai import AsyncWebCrawler
 
 # --- ⚙️ 配置中心 ---
-INPUT_FILE = '核查结果_精细评分版.xlsx'  # 你的输入文件
+INPUT_FILE = '公司新闻官网列表.xlsx'  # 你的输入文件
 OUTPUT_ROOT = '新闻储存'        # 结果保存的根目录
 MAX_PAGES_PER_SITE = 2                  # 每个网站最多翻多少页（防止死循环）###############################这里第一次先修改成2页试试
 MAX_CONCURRENT_TABS = 1                  # 这是一个通用爬虫，建议设为1，串行爬取最稳定
