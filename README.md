@@ -1,0 +1,2 @@
+# Company_News_Website_Crawler
+公司新闻网站爬虫 (Company News Website Crawler)。将目标公司的新闻列表网页放进Excel列表，程序自动识别新闻详情页链接、执行翻页操作，并将采集到的HTML网页数据清洗、转化为包含元数据的标准化Markdown文件，帮助业务人员高效构建新闻语料库。
